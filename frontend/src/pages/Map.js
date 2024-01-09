@@ -4,6 +4,7 @@ import './css/Map.css';
 import React from 'react';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
+import Navigation from '../components/Navigation';
 import Toilet from '../components/Toilet';
 
 const containerStyle = {
@@ -42,6 +43,7 @@ function Map() {
 			onLoad={onLoad}
 			onUnmount={onUnmount}
 		>
+			<Navigation />
 			<Toilet />
 		</GoogleMap>
 	) : <></>

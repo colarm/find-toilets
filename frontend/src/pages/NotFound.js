@@ -1,7 +1,7 @@
 
 import './css/NotFound.css';
 
-let language = (navigator.systemLanguage ? navigator.systemLanguage : navigator.language);
+let language = navigator.language;
 
 const text = {
     'en': {

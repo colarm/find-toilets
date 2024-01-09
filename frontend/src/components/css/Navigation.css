@@ -1,0 +1,31 @@
+.NavigationBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 8rem;
+    position: fixed;
+    bottom: 2rem;
+    left: 1rem;
+    background-color: #f4fbff;
+    color: #404040;
+    border: 0.1rem solid #a1adbb;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.Navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    border: solid #a1adbb;
+    border-width: 0.05rem 0 0.05rem;
+}
+
+.Navigation:active {
+    background-color: #a1adbb;
+}

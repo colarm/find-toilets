@@ -15,7 +15,7 @@ function Toilet() {
 	const [clicked, setClicked] = useState(false);
 
 	const onClick = useCallback(() => {
-		console.log('You guess what? ')
+		console.log('You guess what? ');
 	}, []);  // 空数组表示没有依赖项，只在组件挂载时创建一次
 
 	useEffect(() => {

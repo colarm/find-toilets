@@ -5,7 +5,7 @@ import React from 'react';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
 import Navigation from '../components/Navigation';
-import Toilet from '../components/Toilet';
+import ToiletHover from '../components/ToiletHover';
 
 const containerStyle = {
 	width: '100vw',
@@ -44,7 +44,7 @@ function Map() {
 			onUnmount={onUnmount}
 		>
 			<Navigation />
-			<Toilet />
+			<ToiletHover />
 		</GoogleMap>
 	) : <></>
 }

@@ -13,7 +13,7 @@ const text = {
 		button_1: 'Menu',
 		button_2: 'Settings'
 	},
-	'zh-CN': {
+	'zh-CNz': {
 		button_1: '菜单',
 		button_2: '设置'
 	},
